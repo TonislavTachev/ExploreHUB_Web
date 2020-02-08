@@ -1,0 +1,343 @@
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #09d3ac;
+}
+
+/*Custom css*/
+nav .brand-logo{
+  padding-left: 0.5em !important;
+}
+
+nav #navbar-img{
+  height:50px;
+  margin-top:8px;
+}
+
+.container {
+  margin-top:3em !important;
+}
+
+h5{
+  text-align: center;
+}
+
+button{
+  width: 100%;
+}
+
+/*Custom css*/
+.card{
+  height:380px;
+  width:300px;
+}
+
+.card .card-image img{
+  height: 200px;
+}
+
+.event-picture{
+  width: 100%;
+  height: 400px;
+}
+
+.places {
+  display: flex;
+  flex-direction:row;
+  justify-content: space-between;
+}
+
+.image-header{
+  margin-top:1.25em;
+}
+
+.center-align{
+  font-size:20px;
+  font-style: bold !important;
+  padding:5px;
+  border-radius:10px;
+}
+
+#book{
+  margin-top:1em;
+  width:100%;
+}
+
+.btn-small{
+  width:100%;
+  margin-top:1em;
+}
+
+.card-panel{
+  width:98%;
+  color:white;
+}
+
+.main{
+  height:400px !important;
+  background:url("https://images.pexels.com/photos/1271619/pexels-photo-1271619.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940") no-repeat;
+  background-position:center;
+  z-index:-9999999999999999999999;
+  color:white;
+}
+
+.main h3{
+  margin:0;
+  padding:10px;
+  padding-top:10%;
+  text-align: center;
+}
+
+.thu{
+  margin-left:2em;
+  margin-top:4.5em;
+}
+
+.caro-2 .btn{
+  margin-top:2em !important;
+}
+
+body{
+  font-family: 'Roboto', sans-serif;
+}
+
+.about {
+  width:16%;
+  margin-left:42%;
+  text-align: center;
+}
+
+.about-text {
+  margin-top:5em;
+}
+
+.laptop{
+  width:80%;
+  margin-left:2em;
+}
+
+.page-footer{
+  background: #00acc1 !important;
+}
+
+.exp {
+ padding-left:2em;
+}
+
+.line{
+  margin-left:10px !important;
+}
+
+.main-team{
+  height:400px !important;
+  background:url("https://images.pexels.com/photos/546819/pexels-photo-546819.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940  ") no-repeat;
+  background-position:center;
+  z-index:-9999999999999999999999;
+  color:white;
+}
+
+.main-team h3{
+  margin:0;
+  padding:10px;
+  padding-top:10%;
+  text-align: center;
+}
+
+.passion{
+  margin-top:2em !important;
+}
+
+.passion2{
+  margin-top:1.5em !important;
+  font-size:20px;
+}
+
+
+.devicon-javascript-plain{
+  font-size:25px !important;
+}
+
+.devicon-java-plain{
+  font-size:25px !important;
+}
+
+.devicon-mysql-plain{
+  font-size:25px !important;
+}
+.devicon-nodejs-plain{
+  font-size:25px !important;
+}
+.devicon-mongodb-plain{
+  font-size:25px !important;
+}
+
+.devicon-heroku-original{
+  font-size:25px !important;
+}
+
+.team{
+  height:400px !important;
+  color:white;
+}
+
+.team h4{
+  text-align: center;
+  margin-top:5em;
+  font-size:35px;
+}
+
+.member{
+  height:150px;
+  width:150px;
+  margin-left:75px;
+  margin-top:-3em;
+  margin-right:75px;
+}
+
+.name{
+  font-size:25px;
+  margin-top:-0.25em;
+}
+
+.team-position{
+  font-size:14px;
+  text-align:center;
+  margin-top:-1.80em;
+  color:#757575;
+}
+
+.members{
+  margin-top: -1em;
+}
+/* Wishlist component css*/
+.event-card{
+  background-position:center;
+  background-size:cover;
+  background-repeat:no-repeat;
+  z-index:-99999999999;
+  display:flex;
+  flex-direction:row;
+  justify-content:space-between;
+  height:100px;
+  border-radius:10px;
+  margin-bottom:10px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.15);
+  background-color: #34495e;
+}
+
+.general-inf{
+  padding-left:10px;
+  font-size:35px;
+  padding-top:3px;
+}
+
+.delete{
+  display:flex;
+  flex-direction:column;
+  align-items:flex-end;
+}
+
+.fa-times-circle{
+  font-size:40px;
+  padding-right:10px;
+  padding-top:35px;
+}
+
+div.event-card i{
+  transform: scale(0);
+}
+
+.event-card:hover h3{
+  transition-duration:0.5s;
+  color:white;
+}
+
+div.event-card:hover i {
+   transform:translate(-50%, -50%);
+   transform:scale(1);
+   transition-duration:0.5s;
+   color:white;
+}
+
+.event-card:hover{
+  opacity:0.8;
+  background-color:#9b9b9b;
+  transition-duration:0.5s;
+}
+
+.wishlist-info{
+  margin-top:1em;
+  text-align:center;
+  padding-top:2em;
+}
+
+.search-bar{
+  width:98%;
+  height:60px;
+}
+
+.book-btn{
+  margin-top:10px !important;
+}
+
+/* User Homepage css */
+.user-history{
+  margin-top:80px;
+}
+
+.collection-item{
+  display:flex;
+  flex-direction:row;
+  justify-content:space-evenly
+}
+
+.status{
+  padding-left:10px;
+  padding-top:20px;
+}
+
+.paymentMethod {
+  padding-left:10px;
+  padding-top:20px;
+}
+
+.paymentMethod p {
+  text-align: center;
+}
+
+.cancelPayment{
+  padding-left:10px;
+  padding-top:20px;
+  display:flex;
+  flex-direction:column;
+  align-items: center;
+}
+
+.cancelPayment i:hover{
+  color:red;
+  transition: ease-in-out 0.2s;
+  cursor: pointer;
+}
+
+
+
+
+
